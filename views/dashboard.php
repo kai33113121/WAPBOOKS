@@ -28,7 +28,7 @@ echo "Rol: " . ($usuario['rol'] == 1 ? 'Administrativo' : 'Operario') . "<br>";
             <li><a href='../controllers/ProductoController.php'>productos</a></li>
             <li><a href="#">clientes</a></li>
             <li><a href="#">proveedores</a></li>
-            <li><a href="../public/index.php?logout=1">Cerrar sesión</a></li>
+            <li><a href="../index.php?logout=1">Cerrar sesión</a></li>
         </ul>
 
     </nav>

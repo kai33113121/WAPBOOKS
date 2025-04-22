@@ -1,9 +1,21 @@
 <?php
+
+// conexion local
 $host = 'localhost';
 $db   = 'loginapp';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
+
+
+// conexion remota
+// $host = 'sql312.byethost9.com';
+// $db   = 'b9_38534586_loginAPP';
+// $user = 'b9_38534586';
+// $pass = 'Eileen123456789*';
+// $charset = 'utf8mb4';
+
+
 
 $options = [
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
@@ -16,3 +28,4 @@ try {
     die("Error de conexión: " . $e->getMessage());
 }
 
+        
