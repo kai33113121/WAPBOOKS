@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* display: flex; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Menu*/
+#menu{
+    clear:both;
+    background: #222;
+    color:white;
+    height: 55px;
+    border-bottom: 4px solid #01B1EA;
+}
+
+
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+}
+
+#menu ul li{
+    line-height: 55px;
+    float: left;
+    border-right: 1px solid #363636;
+}
+
+
+#menu a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: all 300ms;
+}
+
+#menu a:first-child{
+    border-left: 1px solid #363636;
+
+}
+
+#menu a:hover{
+    background: #01B1EA;
+}
+
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    width: 300px;
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2980b9;
+}
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+h2 {
+    color: #006699;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #006699;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #004d66;
+}
+
+
+.producto_container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    width: 900px;
+}
+
+table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+th { background-color: #f2f2f2; }
+a { text-decoration: none; margin: 5px; }
+form label { display: block; margin-top: 10px; }
