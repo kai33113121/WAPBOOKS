@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="../public/css/styles.css">
 </head>
 <body>
-    <h1>Productos</h1>
-    <a href="../controllers/ProductoController.php?accion=crear">Nuevo Producto</a>
     <div class="producto_container">
+        <h2>Productos</h2>
+        <a href="../controllers/ProductoController.php?accion=crear">Nuevo Producto</a>
         <table>
             <thead>
                 <tr><th>ID</th><th>Nombre</th><th>Precio</th><th>Cantidad</th><th>Acciones</th></tr>
