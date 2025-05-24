@@ -1,0 +1,81 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with split background */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, white 50%, #6b1e9e 50%);
+}
+
+/* Form container styling */
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+/* Heading styling */
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input fields styling */
+.form-container input,
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #f0f4f8;
+}
+
+/* Placeholder text color */
+.form-container input::placeholder {
+    color: #999;
+}
+
+/* Button styling with gradient */
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #6b1e9e, #3b0b5b);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.form-container button:hover {
+    background: linear-gradient(to right, #3b0b5b, #6b1e9e);
+}
+
+/* Link styling */
+.form-container p {
+    margin-top: 15px;
+}
+
+.form-container a {
+    color: #6b1e9e;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}

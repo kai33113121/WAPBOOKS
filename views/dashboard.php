@@ -25,10 +25,17 @@ echo "Rol: " . ($usuario['rol'] == 1 ? 'Administrativo' : 'Operario') . "<br>";
     
     <nav id="menu">
         <ul>
-            <li><a href='../controllers/ProductoController.php'>productos</a></li>
-            <li><a href="#">clientes</a></li>
-            <li><a href="#">proveedores</a></li>
-            <li><a href="../index.php?logout=1">Cerrar sesión</a></li>
+            <li><a href='#'>Inicio</a></li>
+            <li><a href='../controllers/ProductoController.php'>Productos</a></li>
+            <li><a href="#">Libros</a></li>
+            <li><a href="#">Gestinar Libros</a></li>
+            <li><a href="#">Compras</a></li>
+            <li><a href="#">Ventas</a></li>
+            <li><a href="#">Intercambios</a></li>
+            <li><a href="#">Reportes</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Usuarios</a></li>
+            <li><a href="../index.php?logout=1">Cerrar Sesión</a></li>
         </ul>
 
     </nav>

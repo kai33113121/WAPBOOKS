@@ -2,7 +2,7 @@
 
 // conexion local
 $host = 'localhost';
-$db   = 'loginapp';
+$db   = 'books';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
@@ -12,7 +12,7 @@ $charset = 'utf8mb4';
 // $host = 'sql312.byethost9.com';
 // $db   = 'b9_38534586_loginAPP';
 // $user = 'b9_38534586';
-// $pass = 'Eileen123456789*';
+// $pass = '';
 // $charset = 'utf8mb4';
 
 
