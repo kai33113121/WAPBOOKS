@@ -2,7 +2,7 @@
 
 // conexion local
 $host = 'localhost';
-$db   = 'books';
+$db   = 'wap_libros';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';

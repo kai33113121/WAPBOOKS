@@ -31,7 +31,7 @@ echo "Rol: " . ($usuario['rol'] == 1 ? 'Administrativo' : 'Operario') . "<br>";
             <li><a href="#">Gestinar Libros</a></li>
             <li><a href="#">Compras</a></li>
             <li><a href="#">Ventas</a></li>
-            <li><a href="#">Intercambios</a></li>
+            <li><a href="../controllers/IntercambioController.php">Intercambios</a></li>
             <li><a href="#">Reportes</a></li>
             <li><a href="#">Settings</a></li>
             <li><a href="#">Usuarios</a></li>
